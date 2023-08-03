@@ -1,5 +1,5 @@
 import fetchData from "@/utils/apiCalls";
-// Accepts a promise of posts as a prop
+
 export default async function RenderPosts() {
   // here we await the promise, just like we used to. So this component
   // will not be rendered until the promise is resolved.
