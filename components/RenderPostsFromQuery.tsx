@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-// Accepts a promise of posts as a prop
+// Accepts a promise of comments as a prop
 export default function RenderPosts({
   commentPromise,
 }: {
