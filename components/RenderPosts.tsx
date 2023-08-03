@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 
 // Accepts a promise of posts as a prop

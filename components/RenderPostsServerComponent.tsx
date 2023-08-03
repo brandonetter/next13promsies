@@ -1,14 +1,11 @@
+import fetchData from "@/utils/apiCalls";
 // Accepts a promise of posts as a prop
-export default async function RenderPosts({
-  postPromise,
-}: {
-  postPromise: Promise<Post[]>;
-}) {
+export default async function RenderPosts() {
   // here we await the promise, just like we used to. So this component
   // will not be rendered until the promise is resolved.
   // and until the promise is resolved, the Suspense fallback component will be
   // rendered!
-  const posts: Post[] = await postPromise;
+  const posts: Post[] = await fetchData();
 
   // We can add a dummy wait here to simulate a slow connection
   // ignore this in your own code
