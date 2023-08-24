@@ -9,7 +9,7 @@ npm run dev
 # or
 yarn dev
 # ordddddd
-pnpm dev
+pnpm devaa
 ```dddddd
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
